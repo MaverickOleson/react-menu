@@ -1,0 +1,76 @@
+.menu {
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+}
+.menu .title {
+  width: 63px;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  white-space: nowrap;
+  border-bottom: 4px solid goldenrod;
+  margin: auto;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+.menu nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.menu nav p {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: darkgoldenrod;
+}
+.menu nav p:hover {
+  cursor: pointer;
+}
+.menu main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.menu main .item {
+  width: 50%;
+  height: 10vw;
+  display: flex;
+  margin-bottom: 46px;
+}
+.menu main .item img {
+  width: 32%;
+  object-fit: cover;
+  object-position: center;
+  box-sizing: border-box;
+  border: 4px solid goldenrod;
+}
+.menu main .item .info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 35px;
+  margin-left: 20px;
+}
+.menu main .item .info div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted steelblue;
+}
+.menu main .item .info div h4 {
+  margin: 0;
+  margin-bottom: 7px;
+}
+.menu main .item .info div h4:nth-of-type(2) {
+  color: darkgoldenrod;
+}
+.menu main .item .info p {
+  color: steelblue;
+  text-align: left;
+}
+
+/*# sourceMappingURL=menu.css.map */
